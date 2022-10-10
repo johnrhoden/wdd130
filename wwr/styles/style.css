@@ -241,6 +241,25 @@ align-self: center;
     transform: scale(1.1);
 }
 
+/* FAQs Page */
+
+#kayak img {
+    width: 100%;
+}
+
+#faq-header {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.question,.answer {
+padding-left: 10%;
+padding-right: 10%;
+}
+
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
