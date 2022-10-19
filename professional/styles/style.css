@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto&display=swap');
+
+#content {
+   max-width: 1600px; 
+   margin:0 auto
+}
+
+/* menu style*/
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+     }
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    background-color: #05668D;
+    color: #427AA1;
+}
+
+
+
+/* logo style */
+
+#logo-link {
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    width: 80px;
+    padding: 10px;
+   }
+
+/* Headline */
+h1 {
+    text-align: center;
+}
+
+
+body {
+    background-color: white;
+    color: #05668D;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+main section {
+    text-align: center;
+}
+
+
+
+header {
+    background-color: #05668D;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+
+
+/* footer */
+
+footer {
+    background-color: #05668D;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #427AA1;
+}
+
+footer p {
+    font-size: 1.2em
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+    width: 80px;
+}
+
+/* hero section */
+
+#hero-img {
+    width: 100%;
+}
+
+/* grid section */
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    align-items: center; 
+}
+
+h2 {
+    font-family:"Bree Serif", Arial, Baskerville;
+}
+
+.home-title {
+    grid-column: 5/6;
+    grid-row: 1/2;
+    text-align: center;
+    font-family: "Bree Serif", Arial, Baskerville;
+}
+
+.aboutmep {
+    grid-column: 1/11;
+    grid-row: 2/3;
+    text-align: left;
+    padding: 50px 50px;
+    margin-top: 0;
+}
+
+/* Education  */
+
+#ed {
+    grid-row: 3/4;
+    grid-column: 5/6;
+    text-align: center;
+}
+
+.byu-provo-card {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+.byu-mba-card {
+    grid-column: 7/8;
+    grid-row: 4/5;
+}
+
+.byu-idaho-card {
+    grid-column: 5/6;
+    grid-row: 4/5;
+}
+
+/* Employment */
+
+#em {
+    grid-row: 5/6;
+    grid-column: 5/6;
+    text-align: center;
+}
+
+.army-card {
+    grid-column: 3/4;
+    grid-row: 6/7;
+}
+.romney-card {
+    grid-column: 5/6;
+    grid-row: 6/7;
+    }
+
+.tmobile-card {
+    grid-column: 7/8;
+    grid-row: 6/7;
+}
+
+
+.byu-provo-card, .byu-mba-card, .byu-idaho-card, .tmobile-card, .romney-card, .army-card  {
+    margin: 50px 0;
+}
+
+.card-img {
+    border: 5px solid #427AA1;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #427AA1;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+
+.card-img {
+    width: 200px;
+}
+
+
+#background {
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
