@@ -32,6 +32,7 @@ nav a:hover {
 #logo-link {
     justify-self: center;
     align-self: center;
+    width: 80px;
 }
 
 .logo {
@@ -42,6 +43,7 @@ nav a:hover {
 /* Headline */
 h1 {
     text-align: center;
+    font-family: "Bree Serif", Arial, Baskerville;
 }
 
 
@@ -208,4 +210,122 @@ main section img {
 #background {
     grid-column: 1/11;
     grid-row: 4/9;
+}
+
+/* Education subpage */
+
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center; 
+    padding: 50px 50px
+      }
+
+#ed2 {
+    grid-row: 1/2;
+    grid-column: 1/5;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+}
+
+.byup {
+    grid-column: 2/5;
+    grid-row: 2/3;
+    text-align: left;
+    padding: 50px 50px;
+    margin-top: 0;
+}
+
+.mbap{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    text-align: left;
+    padding: 50px 50px;
+    margin-top: 0;
+}
+
+.pathwayp{
+    grid-column: 2/5;
+    grid-row: 4/5;
+    text-align: left;
+    padding: 50px 50px;
+    margin-top: 0;
+}
+
+.edu-img{
+    width: 80%;
+}
+
+.byu-provo-pic{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.byu-mba-pic{
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.byu-pathway-pic{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+/* Employment subpage */
+
+.employment-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center; 
+    padding: 50px 50px
+      }
+
+#em2 {
+    grid-row: 1/2;
+    grid-column: 1/5;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+}
+
+.armyp {
+    grid-column: 2/5;
+    grid-row: 2/3;
+    text-align: left;
+    padding: 50px 50px;
+    margin-top: 0;
+}
+
+.politicsp{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    text-align: left;
+    padding: 50px 50px;
+    margin-top: 0;
+}
+
+.telecomp{
+    grid-column: 2/5;
+    grid-row: 4/5;
+    text-align: left;
+    padding: 50px 50px;
+    margin-top: 0;
+}
+
+.employ-img{
+    width: 80%;
+}
+
+.army-pic{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.politics-pic{
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.telecom-pic{
+    grid-column: 1/2;
+    grid-row: 4/5;
 }
