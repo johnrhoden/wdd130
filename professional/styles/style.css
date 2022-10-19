@@ -174,7 +174,7 @@ h2 {
     grid-column: 3/4;
     grid-row: 6/7;
 }
-.romney-card {
+.nrsc-card {
     grid-column: 5/6;
     grid-row: 6/7;
     }
@@ -185,7 +185,7 @@ h2 {
 }
 
 
-.byu-provo-card, .byu-mba-card, .byu-idaho-card, .tmobile-card, .romney-card, .army-card  {
+.byu-provo-card, .byu-mba-card, .byu-idaho-card, .tmobile-card, .nrsc-card, .army-card  {
     margin: 50px 0;
 }
 
